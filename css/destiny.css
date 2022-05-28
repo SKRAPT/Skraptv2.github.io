@@ -1,0 +1,76 @@
+/*
+    Owned by Keq
+    * https://anilist.co/user/Keq/
+    Edited by SaikoKurami
+    * https://anilist.co/user/SaikoKurami/
+    Copyright (c) 2021 - Destiny Custom CSS V.1.0.0
+*/
+
+body {
+    background: rgb(var(--color-background)) url("https://cdn.discordapp.com/attachments/856149054701830164/940591605788864582/unknown.png") center/100% fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-theme-dark{
+ --color-foreground: 20, 20, 20; 
+ --color-foreground-grey: 11,11,11;
+ --color-foreground-grey-dark: 6 6 6;
+ --color-background: 11,11,11;
+ --color-text: 255, 246, 246;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(218,65,39) !important;
+}
+.site-theme-dark .nav-unscoped{
+    background: rgb(var(--color-foreground)) !important;
+}
+.site-theme-dark .nav-unscoped.transparent {
+    background: rgba(var(--color-foreground),0.5) !important;
+    color: rgb(229, 231, 234);
+}
+#nav > div.wrap > a > img{
+    content: url(https://files.catbox.moe/obn4w5.svg);
+}
+.activity-feed > div > div.wrap > div.list.small > a::before {
+    content: "";
+    background: url(https://i.imgur.com/nMS3j2D.png);
+    background-repeat: no-repeat;
+    width: 87rem;
+    height: 130rem;
+    display: block;
+    z-index: -3;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+}
+.banner .shadow {
+    display: none !important;
+    }
+.activity-anime_list .wrap, .activity-manga_list .wrap {
+    background: rgb(var(--color-foreground),0.5) !important;
+}
+.list .title {
+    white-space: nowrap;
+    width: 218px;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+}
+.hohScore {
+    display: none !important;
+}
+.list.small > div > div.status > a {
+    font-weight: 405;
+}
+.activity-feed .activity-entry.activity-message .wrap,
+.activity-entry.activity-text .wrap {
+    backdrop-filter: blur(3px) !important;
+    background-color: rgba(var(--color-foreground),0.8);
+}
+.activity-manga_list > div > div > div > div > .title, .hohPinned .list .title[href^="/manga/"] {
+    color: rgb(var(--color-blue)) !important;
+}
+.footer{
+    background: rgb(var(--color-foreground)) !important;
+}
